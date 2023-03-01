@@ -121,7 +121,7 @@
 }
 
 .price:hover {
-    border: 3px solid #0E98FE;
+    border: 3px solid #7bc6ff;
 }
 
 button {
@@ -134,5 +134,5 @@ button {
 }
 
 .price_hv {
-    border: 3px solid #0E98FE !important;
+    border: 3px solid #0E98FE;
 }
