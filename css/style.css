@@ -48,6 +48,8 @@
 .macbook_img img {
     width: 312px;
     height: 290px;
+    cursor: zoom-in;
+
 }
 
 .macbook_info {
