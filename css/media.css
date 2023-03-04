@@ -1,0 +1,94 @@
+@media(max-width: 767px) {
+    .text_header_top {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .text_header_bottom {
+        padding: 0 20px;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .macbook {
+        max-width: 100%;
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .macbook_img img {
+        width: 234px;
+        height: 218px;
+    }
+
+    .macbook_name {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .macbook_color {
+        font-weight: 700;
+        color: blue;
+        font-size: 18px;
+
+    }
+
+    .macbook_price {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .catalog {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 565px) {
+    .macbook_img img {
+        width: 169px;
+        height: 135px;
+    }
+
+    .macbook_name {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .macbook_color {
+        font-weight: 600;
+        color: blue;
+        font-size: 18px;
+
+    }
+
+    .macbook_price {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .btn_clr {
+        width: 129px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .catalog {
+        margin-top: 20px;
+    }
+    .catalog_price {
+        width: 250px;
+        height: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    .price {
+        width: 250px;
+        height: 57px;
+        padding: 18px 20px 18px 20px;
+        transition: 100ms;
+    }
+}
